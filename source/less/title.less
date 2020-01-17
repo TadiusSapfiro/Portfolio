@@ -1,0 +1,50 @@
+.console-container {
+
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+  letter-spacing: 9px;
+  text-transform: uppercase;
+  font-size:28px;
+  text-align:center;
+
+  display:block;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:0 auto;
+
+  &:after{
+    content: '';
+    display: block;
+    background-color: #000;
+    width: 100px;
+    height: 4px;
+    position: relative;
+    margin: 50px auto;
+  }
+}
+
+.hidden{
+  opacity: 0;
+}
+.console-underscore {
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:10px;
+  color: #000;
+}
+
+@media (min-width:@tablet)  {
+  .console-container {
+    font-size:40px;
+  }
+}
+
+
+
+@media (min-width:@desktop)  {
+
+}
