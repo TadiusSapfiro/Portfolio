@@ -1,5 +1,5 @@
 .work{
-  padding: 0 10px;
+  padding: 0 10px 70px;
   position: relative;
   z-index: 1;
   & .console-container{
@@ -8,7 +8,7 @@
 
   &__list{
     display: grid;
-    grid-template-rows: repeat(auto,8);
+    grid-template-columns: auto;
     grid-gap: 10px;
   }
 
@@ -16,7 +16,6 @@
     display: grid;
     grid-template-rows: auto auto;
     justify-content: center;
-    align-items: center;
     grid-gap: 5px;
     padding: 10px;
     transition-duration: 0.3s;
@@ -52,7 +51,24 @@
     font-size: 12px;
     font-weight: 700;
   }
+}
+
+@media (min-width:@tablet)  {
+  .work {
+    //& .console-container {
+    //  transform: translateY(-30%);
+    //}
+
+    &__list {
+      grid-template-columns: auto auto;
+      grid-gap: 10px;
+    }
+  }
+}
 
 
-
+@media (min-width:994px)  {
+  .blog{
+    padding-bottom: 220px;
+  }
 }
