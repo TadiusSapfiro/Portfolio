@@ -7,7 +7,12 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="PATH_TO_GIT" value="D:\projects\Git\bin\git.exe" />
+    <option name="RECENT_GIT_ROOT_PATH" value="D:/Portfolio" />
+  </component>
   <component name="ProjectId" id="1Vywq2Qf0myTvsHRhwNwb4sVtvf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -16,8 +21,9 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
+    <property name="last_opened_file_path" value="D:/Portfolio" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -47,25 +53,42 @@
       <workItem from="1578502852965" duration="9774000" />
       <workItem from="1578665797187" duration="4653000" />
       <workItem from="1578674365365" duration="3625000" />
+      <workItem from="1579188738052" duration="793000" />
+      <workItem from="1579189657728" duration="1531000" />
+      <workItem from="1579419179012" duration="2261000" />
+      <workItem from="1579421599671" duration="1223000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$APPLICATION_HOME_DIR$/jbr/bin/D/Portfolio" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="394" y="331" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1579421313262">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="394" y="331" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1280.984@0.0.1280.984" timestamp="1579421313262" />
     <state x="276" y="263" key="EditFileWatcherDialog" timestamp="1578469355825">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
     <state x="276" y="263" key="EditFileWatcherDialog/0.0.1280.984@0.0.1280.984" timestamp="1578469355825" />
-    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1578468557694">
+    <state x="420" y="246" key="FileChooserDialogImpl" timestamp="1579421642960">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1578468557694" />
-    <state x="28" y="246" key="SettingsEditor" timestamp="1578469456067">
+    <state x="420" y="246" key="FileChooserDialogImpl/0.0.1280.984@0.0.1280.984" timestamp="1579421642960" />
+    <state x="28" y="246" key="SettingsEditor" timestamp="1579423810983">
       <screen x="0" y="0" width="1280" height="984" />
     </state>
-    <state x="28" y="246" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1578469456067" />
+    <state x="28" y="246" key="SettingsEditor/0.0.1280.984@0.0.1280.984" timestamp="1579423810983" />
+    <state x="261" y="13" width="757" height="957" key="find.popup" timestamp="1579421089029">
+      <screen x="0" y="0" width="1280" height="984" />
+    </state>
+    <state x="261" y="13" width="757" height="957" key="find.popup/0.0.1280.984@0.0.1280.984" timestamp="1579421089029" />
     <state x="296" y="221" key="run.anything.popup" timestamp="1578676742734">
       <screen x="0" y="0" width="1280" height="984" />
     </state>

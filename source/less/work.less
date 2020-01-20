@@ -1,7 +1,58 @@
 .work{
+  padding: 0 10px;
   position: relative;
   z-index: 1;
   & .console-container{
     transform: translateY(-30%);
   }
+
+  &__list{
+    display: grid;
+    grid-template-rows: repeat(auto,8);
+    grid-gap: 10px;
+  }
+
+  &__item{
+    display: grid;
+    grid-template-rows: auto auto;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 5px;
+    padding: 10px;
+    transition-duration: 0.3s;
+
+    &:hover{
+      & .work__name{
+        transform: translateY(10px);
+      }
+
+      & .work__desk{
+        transform: translateY(-10px);
+        opacity: 0;
+      }
+    }
+    //margin: 0 auto;
+  }
+
+  &__name{
+    transition-duration: 0.3s;
+    color: #444;
+    justify-self: center;
+    letter-spacing: .1em;
+    font-family: @ubuntu;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  &__desk{
+    transition-duration: 0.3s;
+    color: @blue;
+    justify-self: center;
+    letter-spacing: .15em;
+    font-family: @ubuntu;
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+
+
 }
