@@ -1,6 +1,5 @@
 "use strict";
 
-
 function consoleText(words, id, colors) {
   if (colors === undefined) colors = ['#111'];
   let visible = true;
