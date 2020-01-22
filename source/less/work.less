@@ -1,9 +1,10 @@
 .work{
-  padding: 0 10px 70px;
+  padding:@con-p-m  10px 75px;
   position: relative;
   z-index: 1;
   & .console-container{
-    transform: translateY(-30%);
+    position: absolute;
+
   }
 
   &__list{
@@ -35,11 +36,11 @@
 
   &__name{
     transition-duration: 0.3s;
-    color: #444;
+    color: #1d1d1d;
     justify-self: center;
     letter-spacing: .1em;
     font-family: @ubuntu;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 700;
   }
   &__desk{
@@ -55,20 +56,25 @@
 
 @media (min-width:@tablet)  {
   .work {
-    //& .console-container {
-    //  transform: translateY(-30%);
-    //}
+    padding-top: @con-p-t;
+    padding-bottom: 140px;
+    & .console-container {
+      transform: translateY(-30%);
+    }
 
     &__list {
-      grid-template-columns: auto auto;
+      justify-content: center;
+      grid-template-columns: repeat(2, 33%);
       grid-gap: 10px;
     }
   }
 }
 
 
-@media (min-width:994px)  {
-  .blog{
-    padding-bottom: 220px;
+
+
+@media (min-width:@desktop)  {
+  .work{
+    padding-bottom: 280px;
   }
 }
