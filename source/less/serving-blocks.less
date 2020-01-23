@@ -56,16 +56,13 @@ a{
 }
 
 .section:before{
-	position: absolute;
-	z-index: -1;
-	content: '';
-	width: 120%;
-	top: 0;
-	left: 0;
-	transform-origin: left top;
-	height: 250px;
-	background-color: #fff;
-	transform: rotate(-5deg);
+		content:'';
+		position:absolute;
+		top:-50px;
+		width:0;
+		height:0;
+		border-bottom: 50px solid @gray;
+		border-left: 100vw solid #fff;
 }
 
 .section--gray:before{
